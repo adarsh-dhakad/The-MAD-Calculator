@@ -14,10 +14,10 @@ without login it only store history in local variable arraylist after login it s
 
 
 # login fragment
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/187584825-d52e0f9b-d8e9-48a3-8ca3-cdbb01281484.jpeg">
+<img width="220" alt="image" src="https://user-images.githubusercontent.com/58937745/187584825-d52e0f9b-d8e9-48a3-8ca3-cdbb01281484.jpeg">
 
 # cloud (firebase)
 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/187585444-64c99b23-dc77-4c4b-82e0-d9fe37420028.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/58937745/187585444-64c99b23-dc77-4c4b-82e0-d9fe37420028.png">
 
 thanks
