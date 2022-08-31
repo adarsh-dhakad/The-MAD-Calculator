@@ -50,7 +50,9 @@ class MainActivityViewModel : ViewModel() {
 
     @Throws(Exception::class)
     fun evaluate(expression: String) {
-        viewModelScope.launch(Dispatchers.IO) {
+
+        // doing operation background thread
+        viewModelScope.launch(Dispatchers.Default) {
             var ans: Float = Float.MAX_VALUE
             var error = true
             try {
@@ -60,6 +62,7 @@ class MainActivityViewModel : ViewModel() {
                 error = true
             }
             withContext(Dispatchers.Main) {
+                // after operation come to main thread then update live data
                 if (!error) {
                     ansLiveData.value = ans
                     errorLiveData.value = error

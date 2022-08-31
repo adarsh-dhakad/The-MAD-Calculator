@@ -8,10 +8,9 @@ class Operation {
  fun evaluate(expression: String): Float {
         val tokens = expression.toCharArray()
 
-        // Stack for numbers: 'values'
+
         val values: Stack<Float> = Stack<Float>()
 
-        // Stack for Operators: 'ops'
         val ops: Stack<Char> = Stack<Char>()
         var i = 0
         while (i < tokens.size) {

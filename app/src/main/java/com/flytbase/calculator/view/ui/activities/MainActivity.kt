@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+      // from main activity we are opening fragment
         val fm: FragmentManager = this.supportFragmentManager
         val fragment = CalculatorFragment()
         fm.beginTransaction()

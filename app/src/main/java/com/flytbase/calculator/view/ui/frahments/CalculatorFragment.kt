@@ -42,6 +42,7 @@ class CalculatorFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (activity is AppCompatActivity) {
+            //  title for fragment
             (activity as AppCompatActivity).setSupportActionBar(binding!!.toolbar.toolbar)
             (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
             (activity as AppCompatActivity).supportActionBar?.setDisplayShowHomeEnabled(true)
@@ -54,13 +55,14 @@ class CalculatorFragment : Fragment() {
         val adapter = InputOutputAdapter(this)
         binding.rvHistory.adapter = adapter
 
+        // ans live data
         viewModel.ansListLiveData.observeForever {
-            Log.d("assf","$it")
             if (it.isNotEmpty()) {
                 adapter.itemList(it)
             }
         }
 
+        // we are observe if user doing some wrong operations
         viewModel.errorLiveData.observeForever {
             if(it){
                 binding.tvAnsView.text = "Error"
