@@ -18,6 +18,6 @@ without login it only store history in local variable arraylist after login it s
 
 # cloud (firebase)
 
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/58937745/187585444-64c99b23-dc77-4c4b-82e0-d9fe37420028.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/58937745/187585444-64c99b23-dc77-4c4b-82e0-d9fe37420028.png">
 
 thanks
