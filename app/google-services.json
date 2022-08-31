@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268361312102",
+    "project_id": "the-mad-calculator",
+    "storage_bucket": "the-mad-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268361312102:android:9673605572c1f3f5ac8aa7",
+        "android_client_info": {
+          "package_name": "com.flytbase.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268361312102-obn7bb53i0mc80jadgk70p0qg9h2rqvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyucjcZMvP8c4vgl45zaChcCIe2gsVklY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268361312102-obn7bb53i0mc80jadgk70p0qg9h2rqvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
